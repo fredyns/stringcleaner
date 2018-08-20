@@ -1,0 +1,21 @@
+{
+    "name": "fredyns/stringcleaner",
+    "description": "Clean string variable",
+    "type": "library",
+    "keywords": ["php","library","string","stringcleaner"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fredy Nurman Saleh",
+            "email": "email@fredyns.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fredyns\\stringcleaner\\": ""
+        }
+    }
+}
