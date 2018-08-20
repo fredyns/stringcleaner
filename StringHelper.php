@@ -1,6 +1,6 @@
 <?php
 
-namespace fredyns\suite\helpers;
+namespace fredyns\stringcleaner;
 
 /**
  * some input filter
