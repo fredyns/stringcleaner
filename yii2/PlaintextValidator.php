@@ -8,7 +8,7 @@ use yii\validators\ValidationAsset;
 /**
  * apply plain text filter in Yii2 Framework
  */
-class Yii2RichtextValidator extends Validator
+class PlaintextValidator extends Validator
 {
 
     /**
@@ -19,7 +19,7 @@ class Yii2RichtextValidator extends Validator
         $value = $model->{$attribute};
 
         if (is_string($value)) {
-            $model->{$attribute} = StringCleaner::forRTF($value);
+            $model->{$attribute} = StringCleaner::forPlaintext($value);
         }
     }
 
