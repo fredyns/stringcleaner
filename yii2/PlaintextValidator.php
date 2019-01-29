@@ -4,6 +4,7 @@ namespace fredyns\stringcleaner\yii2;
 
 use yii\validators\Validator;
 use yii\validators\ValidationAsset;
+use fredyns\stringcleaner\StringCleaner;
 
 /**
  * apply plain text filter in Yii2 Framework
