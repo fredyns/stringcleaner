@@ -1,6 +1,6 @@
 <?php
 
-namespace fredyns\stringcleaner;
+namespace fredyns\stringcleaner\yii2;
 
 use yii\validators\Validator;
 use yii\validators\ValidationAsset;
